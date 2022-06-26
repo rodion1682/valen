@@ -378,13 +378,13 @@ textarea.input {
   height: 0;
   opacity: 0;
 }
-.custom__input:focus + .custom__label .custom__circle {
+.custom__input:focus .custom__circle {
   box-shadow: 0 0 0.3125rem #000;
 }
-.custom__input:checked + .custom__label .custom__circle::before {
+.custom:checked + .custom__label .custom__circle::before {
   color: #fff;
 }
-.custom__input:checked + .custom__label .custom__text span {
+.custom:checked + .custom__label .custom__text span {
   color: #000;
 }
 .custom__label {
